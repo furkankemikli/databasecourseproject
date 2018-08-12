@@ -1,0 +1,89 @@
+<html>
+
+<head>
+	<title>CS306 PROJECT</title>
+</head>
+
+<body>
+<h1>Furkan Kemikli_17846_Project</h1>
+<!--<h2>This is the body part of the html</h2>
+<h3>This is the body part of the html</h3>
+<h4>This is the body part of the html</h4>
+<h5>This is the body part of the html</h5>-->
+
+<p>Welcome to Main Page...</p>
+
+
+<p>Search student by ID:
+<form name="searchForm" method="post" action="search.php">
+<input type="text" name="idInput" />
+<input type="submit" value="Search" />
+</form>
+</p>
+
+
+<p>Insert instructor: 
+<form name="insertionForm" method="post" action="insert.php">
+ID: <input type="text" name="ssnInput" /> </br>
+Name: <input type="text" name="nameInput" /> </br>
+Surname: <input type="text" name="surnameInput" /> </br>
+Dept: <input type="text" name="deptInput" /> </br>
+Room: <input type="text" name="roomInput" /> </br>
+Email: <input type="text" name="emailInput" /> </br>
+<input type="submit" value="Insert" />
+</form>
+</p>
+
+
+<p>Insert student: 
+<form name="insertionForm" method="post" action="insertstudent.php">
+ID: <input type="text" name="sidInput" /> </br>
+Name: <input type="text" name="snameInput" /> </br>
+Surname: <input type="text" name="ssurnameInput" /> </br>
+Age: <input type="text" name="ageInput" /> </br>
+Total Credit: <input type="text" name="totalcreditInput" /> </br>
+Email: <input type="text" name="semailInput" /> </br>
+<input type="submit" value="Insert" />
+</form>
+</p>
+
+
+<p>Search courses which has student who has highest age:
+<form name="searchForm" method="post" action="courses_with_highest_age.php">
+<input type="submit" value="Search" />
+</form>
+</p>
+
+
+<p>Search courses who attended by students with credit less than 50:
+<form name="searchForm" method="post" action="courses-students_less_total50.php">
+<input type="submit" value="Search" />
+</form>
+</p>
+
+
+<p>Search instructors who teaches course with credit more than 3:
+<form name="searchForm" method="post" action="instructor-credit4.php">
+<input type="submit" value="Search" />
+</form>
+</p>
+
+
+<p>Search instructors who teaches more than 2 course:
+<form name="searchForm" method="post" action="instructors-course.php">
+<input type="submit" value="Search" />
+</form>
+</p>
+
+
+<p>Search students who tutored by at least 2 student:
+<form name="searchForm" method="post" action="students_tutored-by2.php">
+<input type="submit" value="Search" />
+</form>
+</p>
+
+
+
+</body>
+
+</html>
